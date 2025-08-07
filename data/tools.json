@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Burp Suite",
+    "category": "Web",
+    "purpose": "Web vulnerability scanner and proxy",
+    "automation_tips": "Use extensions and intruder",
+    "vulnerability": ["XSS", "SQLi", "CSRF", "IDOR"],
+    "install": "https://portswigger.net/burp",
+    "stars": 12000
+  },
+  {
+    "name": "MobSF",
+    "category": "Mobile",
+    "purpose": "Mobile app static and dynamic analysis",
+    "automation_tips": "Use API mode",
+    "vulnerability": ["Insecure Storage", "Code Injection"],
+    "install": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+    "stars": 9800
+  },
+  {
+    "name": "Trivy",
+    "category": "Container",
+    "purpose": "Container and repo vulnerability scanner",
+    "automation_tips": "CI/CD pipeline integration",
+    "vulnerability": ["CVE detection", "Misconfigurations"],
+    "install": "https://github.com/aquasecurity/trivy",
+    "stars": 15000
+  },
+  {
+    "name": "SpiderFoot",
+    "category": "OSINT",
+    "purpose": "Automated OSINT collection and analysis",
+    "automation_tips": "Run as service with web UI or REST API",
+    "vulnerability": ["Data Exposure", "Metadata Leaks"],
+    "install": "https://github.com/smicallef/spiderfoot",
+    "stars": 9000
+  },
+  {
+    "name": "theHarvester",
+    "category": "OSINT",
+    "purpose": "Email, subdomain, and employee information gathering",
+    "automation_tips": "Use in recon stage with multiple sources",
+    "vulnerability": ["Information Disclosure"],
+    "install": "https://github.com/laramies/theHarvester",
+    "stars": 7600
+  },
+  {
+    "name": "ZAP",
+    "category": "Web",
+    "purpose": "Web application security scanner",
+    "automation_tips": "Use ZAP CLI and scripts",
+    "vulnerability": ["XSS", "SQLi", "Auth Bypass", "Headers"],
+    "install": "https://www.zaproxy.org/download/",
+    "stars": 11400
+  }
+]
