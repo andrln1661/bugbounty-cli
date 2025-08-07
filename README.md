@@ -18,7 +18,7 @@ This Bash-based command-line toolkit helps researchers, red teamers, and bug bou
 
 ## 📦 Installation
 
-1. Clone your project and navigate to the folder:
+1. Clone the project and navigate to the folder:
 ```bash
 git clone <your-repo-url>
 cd bugbounty-cli-bash-dev
