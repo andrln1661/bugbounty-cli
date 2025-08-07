@@ -1,0 +1,16 @@
+Burp Suite|Web vulnerability scanner and proxy|Use extensions and intruder|XSS, SQLi, CSRF, IDOR|https://portswigger.net/burp
+Nmap|Network scanning and discovery|Use NSE scripts|Open ports, misconfigurations|sudo apt install nmap
+Amass|Subdomain enumeration|Automate with cron|Subdomain takeover|sudo snap install amass
+SQLmap|SQL injection tool|Run in batch mode|SQLi|sudo apt install sqlmap
+Dirb|Brute-force web directories|Use custom wordlists|Hidden files, backups|sudo apt install dirb
+ffuf|Fuzzing web content and parameters|Parse JSON in pipelines|Path and param fuzzing|go install github.com/ffuf/ffuf/v2@latest
+Nikto|Web server vulnerability scanner|Schedule with cron|Outdated software, misconfig|sudo apt install nikto
+MobSF|Mobile app static and dynamic analysis|Use API mode|Insecure storage, code injection|https://github.com/MobSF/Mobile-Security-Framework-MobSF
+Frida|Dynamic instrumentation for apps|Integrate with Python|Runtime API abuse, code tampering|pip install frida-tools
+Trivy|Container and repo scanner|CI/CD pipeline integration|CVE detection, misconfigs|brew install aquasecurity/trivy/trivy
+SpiderFoot|Automated OSINT collection|Use CLI/API|Metadata, credentials, open ports|https://github.com/smicallef/spiderfoot
+theHarvester|Email and domain OSINT|Combine with recon tools|Information leakage|git clone https://github.com/laramies/theHarvester.git
+Metagoofil|Metadata extraction from files|Use in OSINT pipelines|Document metadata leakage|git clone https://github.com/opsdisk/metagoofil.git
+Masscan|High-speed port scanner|Use in bash jobs|Large-scale port scanning|sudo apt install masscan
+Recon-ng|Web reconnaissance framework|Use modular scripting|Recon, data leakage|git clone https://github.com/lanmaster53/recon-ng.git
+Docker Bench|Docker container auditing|Run periodically|Misconfigurations|docker/docker-bench-security
